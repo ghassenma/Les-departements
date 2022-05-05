@@ -1,2 +1,2 @@
-# Les-departements
+# Small-react-apps
 Created with CodeSandbox
