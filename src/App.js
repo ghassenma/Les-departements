@@ -4,6 +4,8 @@ import Home from "./Home";
 import { Routes, Route, useNavigate } from "react-router-dom";
 import HomeIcon from "@mui/icons-material/Home";
 import { Chip, Box } from "@mui/material";
+import Connection from "./Connection";
+import Departementliste from "./Departementliste";
 
 export default function App() {
   const navigate = useNavigate();
@@ -28,6 +30,8 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/shopping-list" element={<ShoppingList />} />
+          <Route path="/Connection" element={<Connection />} />
+          <Route path="/Departementliste" element={<Departementliste />} />
         </Routes>
       </Box>
     </div>
